@@ -27,7 +27,7 @@ class TestCalc (unittest.TestCase):
                 self.assertEqual(100, calc(1, 100))
 
         def test_A_above_min(self):
-                self.assertEqual(2, calc(2, 100))
+                self.assertEqual(200, calc(2, 100))
 
         def test_A_nominal(self):
                 self.assertEqual(50000, calc(500, 100))
@@ -49,7 +49,7 @@ class TestCalc (unittest.TestCase):
                 self.assertEqual(100, calc(100, 1))
 
         def test_B_above_min(self):
-                self.assertEqual(2, calc(100, 2))
+                self.assertEqual(200, calc(100, 2))
 
         def test_B_nominal(self):
                 self.assertEqual(50000, calc(100, 500))
