@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-import re
                 
 def calc(A,B):
         if not isinstance(A, int) or not isinstance(B, int):
